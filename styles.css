@@ -10,7 +10,7 @@
 }
 
 body {
-    font-family: "Figtree", system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-family: "Bitter", system-ui, -apple-system, "Segoe UI", sans-serif;
     color: var(--text);
     background: var(--background);
     line-height: 1.6;
@@ -19,7 +19,16 @@ body {
     padding: 3rem 1.5rem;
 }
 
-h1 { font-size: 3rem;   /*Class 12: Step 2: my own size*/
+/*Lab 12: Task 1: header side by side */
+header {
+    display: flex; 
+    /* Lab 12: Task 4: let the header stack when there isn't room */
+    flex-wrap: wrap;
+    align-items: center; 
+    gap: 1.5rem; 
+}
+
+h1 { font-size: 3rem;   /*Class 12: Step 2: my own scale*/
     line-height:1.1;
     margin-bottom: 0.25rem; }
 
@@ -39,7 +48,14 @@ p{
     margin-bottom: 1rem;
 }
 
-footer { margin-top: 4rem; color: var(--text-muted); font-size: 0.9rem; }
+/* Lab 12: Task 3: footer */
+footer { 
+    border-top: 1px solid var(--border);
+    padding-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 /* Lab 11: Task 4: links */
 a{
@@ -56,14 +72,16 @@ a:hover { border-bottom-color: var(--accent); }
     border-radius: 50%;
 }
 
-section {
-    margin-bottom: 3rem;
-}
 
-ul {
-    padding-left: 1.25rem;
-}
-
-li {
-    margin-bottom: 0.5rem;
-}
+/* Class 12: Step 4: spacing on purpose */
+section { margin-bottom: 3rem; }
+/* Lab 12: Task 2: list without bullets */
+ul { 
+    list-style: none;
+    padding-left: 0;
+ }
+li { 
+    margin-bottom: 0.75rem;
+    padding-left: 1rem;
+    border-left: 2px solid var(--accent);
+ }
