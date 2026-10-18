@@ -1,0 +1,2 @@
+## Week 8, Friday
+On a phone, the picture and the header text were forced onto the same row. Because of this, the large image and large title became squashed. I fixed it by adding flex-wrap; wrap; to the header in the css file which allows the items in the header to wrap onto multiple lines when necessary if the elements can't fit side by side. 
