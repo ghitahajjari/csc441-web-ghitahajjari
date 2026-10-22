@@ -1,2 +1,6 @@
 ## Week 8, Friday
 On a phone, the picture and the header text were forced onto the same row. Because of this, the large image and large title became squashed. I fixed it by adding flex-wrap; wrap; to the header in the css file which allows the items in the header to wrap onto multiple lines when necessary if the elements can't fit side by side. 
+## Week 9, Wednesday
+1. My three pages are the Home screen which describes me and my coursework, the project screen which shows what projects I am doing, and the third screen is music which is the songs that I listen too. I chose to do a music screen as my Android App is about music too so maybe I will work on combining the two. 
+2. If each page had to carry its own copy, I would have three css files for, one for each page. Therefore, I will have to link all these css files in their corresponding html file. So updating one css file will only result in changes of the corresponding html file. There is going tobe isolation and independance between the pages. 
+3. I don't know how to change the format of the picture. Instead of it being just a round picture, I would maybe want to try other forms. I also am curious if it is possible to add another picture that would go on the bottom. 

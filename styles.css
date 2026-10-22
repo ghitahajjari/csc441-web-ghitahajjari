@@ -87,6 +87,14 @@ li {
  }
 
 /* Class 13: Step 3: the nav bar */
+nav ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
 nav a {
     text-decoration: none;
     font-weight: 700;
@@ -96,4 +104,22 @@ nav a {
 
 nav a:hover {
     border-bottom-color: var(--accent);
+}
+
+/* Lab 13: Task 1: which page you're on */
+nav a.current {
+    border-bottom-color: var(--accent);
+    color: var(--accent);
+}
+
+/* Lab 13: Task 4: separate the bar from the header*/
+nav {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 2rem;
+}
+
+/*  Lab 13: Task 5: Tab through the page */
+nav a:focus-visible {
+    outline: 2px solid var(--accent);
 }
