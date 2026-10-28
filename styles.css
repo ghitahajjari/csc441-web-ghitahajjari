@@ -173,3 +173,12 @@ nav a:focus-visible {
 
 /* Lab 14: Task 5: fixes */
 img { max-width: 100%; height:auto; }
+
+/* Class 15: Step 4: dark mode colors */
+body.dark {
+    --text: white;
+    --text-muted: silver;
+    --accent: skyblue;
+    --background: black;
+    --border: dimgrey;
+}
