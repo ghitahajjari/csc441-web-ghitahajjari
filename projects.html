@@ -11,6 +11,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <!-- Lab 15: Task 1: my third file-->
+    <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -22,7 +24,8 @@
             <li><a href="projects.html" class="current">Projects</a></li> 
             <!-- Lab 13: Task 3: music page link -->
             <li><a href="music.html">Music</a></li> 
-
+            <!-- Lab 15: Task 1: the theme button -->
+            <li><button id="theme-toggle" type="button">Dark</button></li>
         </ul>
      </nav>
     <!-- Class 11: Step 2: the page -->
@@ -57,9 +60,12 @@
     
     <!-- Lab 12: Task 3: two things in the footer -->
     <footer>
-        <p>© 2026 Ghita Hajjari</p>
+        <!-- Lab 15: Task 1: the year, written by javaScript -->
+        <p>© <span id="year"></span> Ghita Hajjari</p>        
         <!-- Lab 11: Task 3: a link off my page -->
         <a href="https://github.com/ghitahajjari" target="_blank" rel="noopener">GitHub</a>
+        <!-- Lab 15: Task 5: Button to top -->
+        <button id="back-to-top">Back to Top</button>
     </footer>
 
 </body>
