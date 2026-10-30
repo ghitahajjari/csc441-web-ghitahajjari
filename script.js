@@ -26,11 +26,11 @@ if (themeButton) {
             themeButton.textContent = "Light";
             localStorage.setItem("theme", "dark");
         } else {
-            themeButton.textContent = "Dark"
+            themeButton.textContent = "Dark";
             localStorage.setItem("theme", "light");
         }
     });
-}
+};
 
 // Lab 15: Task 5: button back to top
 const backToTopButton = document.querySelector("#back-to-top");
@@ -41,6 +41,24 @@ if (backToTopButton) {
             behavior: "smooth"
         });
     });
+};
+
+// Class 16: Step 4: handle the submit
+const contactForm = document.querySelector("#contact-form");
+
+// Class 16: Step 4: handle the submit
+if (contactForm) {
+    const formStatus = document.querySelector("#form-status");
+
+    contactForm.addEventListener("submit", function (event) {
+        event.preventDefault()
+
+        const name = document.querySelector("#name").value;
+
+        formStatus.textContent = "Thank you, " + name + ". Your message is ready to send.";
+        contactForm.reset();
+    });
 }
+
 
 
