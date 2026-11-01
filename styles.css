@@ -12,6 +12,8 @@
     --accent: #db2777;
     --background: #fdf2f8;
     --border: #fbcfe8;
+    /* Lab 16: Task 1: error color */
+    --error: crimson;
 }
 
 body {
@@ -186,6 +188,8 @@ body.dark {
     --accent: #f472b6;
     --background: #1a0f1a;
     --border: #4a2540;
+    /* Lab 16: Task 1: error color */
+    --error: lightsalmon;
 }
 
 /* Class 16: Step 3: the form */
@@ -193,6 +197,8 @@ form label {
     display: block;
     font-weight: 500;
     margin-bottom: 0.25rem;
+    /* Lab 16: Task 3: label has a cursor */
+    cursor: pointer;
 }
 
 form input, form textarea {
@@ -200,9 +206,11 @@ form input, form textarea {
     width: 100%;
     padding: 0.5rem;
     border: 1px solid var(--border);
-    scroll-padding-block-start: 6px;
+    border-radius: 6px;
     background: var(--background);
     color: var(--text);
+    /* Lab 16: Task 3: field fixes */
+    box-sizing: border-box;
 }
 
 form input:focus, form textarea:focus {
@@ -219,9 +227,16 @@ form button {
     border-radius: 6px;
     padding: 0.6rem 1.4rem;
     cursor: pointer;
+    /* Lab 16: Task 3: big enough button to hit with a thumb */
+    min-height: 44px;
 }
 
 #form-status {
     font-weight: 600;
     color: var(--accent);
+}
+
+/* Lab 16: Task 1: the error state */
+#form-status.error {
+    color: var(--error);
 }
