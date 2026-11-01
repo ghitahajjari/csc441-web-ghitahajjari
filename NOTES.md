@@ -21,3 +21,17 @@ On a phone, the picture and the header text were forced onto the same row. Becau
 3. It worked because CSS variables let the change affect the colors across the whole website by changing the value in one place. Without CSS variables, I would have to change the colors individually in multiple CSS rules, which would take longer and make the code more repetitive, and even more keen to make mistakes. 
 4. I encountered a problem with making the dark theme stick after refreshing the page, even though the console didn't show an error. I learned that I needed to save the theme using localStorage and then load the saved theme when the page opened again. 
 5. One thing I don't know how to change yet is the style and colors of my buttons. Right now, they have the default style and colors, which don't really match my website's color theme. I would like to learn how to customize them so they match the rest of my webpage better. 
+
+## Week 10, Friday
+1. event.preventDefault() prevents the form from submitting and refreshing the page when the send button is clicked. If it was abscent, the browser would reload the page immediately and wipe out the messages before JavaScript could start running. 
+2. The "cannot read properties of null" error happens when JavaScript tries to select an HTML element on a page where that element doesn't exist. This error was fixed by wrapping the code inside and if statement check, so the code only runs when there is an element on the page. 
+3. The rule I added to my form is a live character counter for the message textarea using an 'input' event listener and '.lenght'. I added this rule because it will give the user a real time feedback on how much they have typed and how much they have left to meet the requirement. 
+
+4. For Task 3 in Lab 16, I added: 
+1) a cursor pointer to the labels to make it clear that labels are interactive and ensure tapping on a phone screen immediately brings focus to its input field.
+2) a "box-sizing: border-box;" is able to keep the padding inside the width of the fields in input and textarea so that the fileds don't stretch past the edges of narrow phone screens.
+3) a "min-height: 44px" makes sure the send button is tall enough to tap with a thumb on mobile devices.
+
+5. Right now the form is only checking what the user inputs on the page , but the program owner has no idea if the form was even used. Something is missing that actually notifies the owner or connects to another system when a message is sent. 
+
+## AI use: none

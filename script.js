@@ -26,11 +26,11 @@ if (themeButton) {
             themeButton.textContent = "Light";
             localStorage.setItem("theme", "dark");
         } else {
-            themeButton.textContent = "Dark"
+            themeButton.textContent = "Dark";
             localStorage.setItem("theme", "light");
         }
     });
-}
+};
 
 // Lab 15: Task 5: button back to top
 const backToTopButton = document.querySelector("#back-to-top");
@@ -41,6 +41,46 @@ if (backToTopButton) {
             behavior: "smooth"
         });
     });
+};
+
+// Class 16: Step 4: handle the submit
+const contactForm = document.querySelector("#contact-form");
+
+if (contactForm) {
+    const formStatus = document.querySelector("#form-status");
+
+    // Lab 16: Task 4: live character counter
+    const charCount = document.querySelector("#char-count");
+
+    // Lab 16: Task 1: my own check before accepting it
+    contactForm.addEventListener("submit", function (event) {
+        event.preventDefault();
+
+        const name = document.querySelector("#name").value.trim();
+        const message = document.querySelector("#message").value.trim();
+
+        if (message.length < 10) {
+            formStatus.textContent = "Please write a bit more, at least 10 characters.";
+            formStatus.classList.add("error");
+            return;
+        }
+
+        formStatus.classList.remove("error");
+        formStatus.textContent = "Thank you, " + name + ". Your message is ready to send.";
+        contactForm.reset();
+    });
+
+    // Lab 16: Task 2: clear the error once they start fixing it
+    contactForm.addEventListener("input", function () {
+        if (formStatus.classList.contains("error")) {
+            formStatus.textContent = "";
+            formStatus.classList.remove("error");
+        }
+
+        // Lab 16: Task 4: live character count
+        charCount.textContent = "Character count: " + document.querySelector("#message").value.length;
+    });
 }
+
 
 
