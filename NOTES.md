@@ -35,3 +35,6 @@ On a phone, the picture and the header text were forced onto the same row. Becau
 5. Right now the form is only checking what the user inputs on the page , but the program owner has no idea if the form was even used. Something is missing that actually notifies the owner or connects to another system when a message is sent. 
 
 ## AI use: none
+
+## Week 11, Wednesday
+Live site: https://ghitahajjari.netlify.app/
