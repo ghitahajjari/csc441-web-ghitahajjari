@@ -38,3 +38,13 @@ On a phone, the picture and the header text were forced onto the same row. Becau
 
 ## Week 11, Wednesday
 Live site: https://ghitahajjari.netlify.app/
+1. In your own words: what does GitHub do, and what does Netlify do?
+Github is where the code lives, it stores and collaborates. It is used to save projects' history and track changes with Git. It also can pull and request branches. Netlify, on the other hand, is where the app goes live. It is a hosting platform that takes code from the repository and pushes it to the public so anyone can actually load and use it. 
+2. You are about to merge into development and your live site will
+not change. Why?
+This is because Netlify only deploys products from release branch and not development branch. 
+3. What does the padlock in the address bar actually mean?
+The padlock means that the connection between the device and the website is encrypted using HTTPS. 
+4. Your repository is public and now your site is too. Is there
+anything in your repo you would not hand a stranger?
+My repo is safe to share with a stranger as it doensn't contain personal data like my phone number or adress. So I think it is safe to be public.
