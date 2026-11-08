@@ -24,6 +24,8 @@ body {
     max-width: 42rem;
     margin: 0 auto;
     padding: 3rem 1.5rem;
+    /* Lab 18 Task 6: Phone fix */
+    overflow-x: hidden;
 }
 
 /*Lab 12: Task 1: header side by side */
@@ -131,7 +133,8 @@ nav a {
     padding-bottom: 0.25rem;
     border-bottom: 2px solid transparent;
     /* Lab 14: Task 5: fixes */
-    padding: 0.5rem O;
+    /* Lab 18: Task 6: Mobile fix updated */
+    padding: 0.5rem O.75rem;
     display: inline-block;
 }
 

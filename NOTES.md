@@ -38,13 +38,16 @@ On a phone, the picture and the header text were forced onto the same row. Becau
 
 ## Week 11, Wednesday
 Live site: https://ghitahajjari.netlify.app/
-1. In your own words: what does GitHub do, and what does Netlify do?
-Github is where the code lives, it stores and collaborates. It is used to save projects' history and track changes with Git. It also can pull and request branches. Netlify, on the other hand, is where the app goes live. It is a hosting platform that takes code from the repository and pushes it to the public so anyone can actually load and use it. 
-2. You are about to merge into development and your live site will
-not change. Why?
-This is because Netlify only deploys products from release branch and not development branch. 
-3. What does the padlock in the address bar actually mean?
-The padlock means that the connection between the device and the website is encrypted using HTTPS. 
-4. Your repository is public and now your site is too. Is there
-anything in your repo you would not hand a stranger?
-My repo is safe to share with a stranger as it doensn't contain personal data like my phone number or adress. So I think it is safe to be public.
+1. Github is where the code lives, it stores and collaborates. It is used to save projects' history and track changes with Git. It also can pull and request branches. Netlify, on the other hand, is where the app goes live. It is a hosting platform that takes code from the repository and pushes it to the public so anyone can actually load and use it. 
+2. This is because Netlify only deploys products from release branch and not development branch. 
+3. The padlock means that the connection between the device and the website is encrypted using HTTPS. 
+4. My repo is safe to share with a stranger as it doensn't contain personal data like my phone number or adress. So I think it is safe to be public.
+
+## Week 11, Friday
+1. It is a honeypot field to catch spam. Normal users can't see or fill it out since css hides it, ut spam bots read the html code and autofill all the boxes. Once Netlify sees it, it throws the submission away. This works better than annoying people with picture puzzles. 
+2. Deploy preview is a temporary live site url Netlify automatically generates whenever a pull request is openned. It is used to double check the work and layout before merging everything to release.
+3. Mobile fixes: I added 'overflow-x: hidden' to the body rule to prevent mobile page from scrolling horizantally.
+I updated the padding between the nav links to be far enough for a thumb tap. 
+4. Code is modified on a custom branch (ie. W11_fri8lab18), then it is pushed to Github and a pull request is openned to merge it with development. Another pull request is openned to merge the changes from development to release. Netlify then detects the changes in release and publishes the live build to the domain. 
+5. Netlify keeps the original .netlify.app link as the default adress, while the custom domain www.ghitahajjari.me points its DNS records to Netlify's servers, so that Netlify routes visitors between both adresses. 
+6. Before the end of the semester, I would like to have a full width banner picture at the top of the pages, with styled overlay text and dynamic background effects. 
