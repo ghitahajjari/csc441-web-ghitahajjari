@@ -51,3 +51,4 @@ I updated the padding between the nav links to be far enough for a thumb tap.
 4. Code is modified on a custom branch (ie. W11_fri8lab18), then it is pushed to Github and a pull request is openned to merge it with development. Another pull request is openned to merge the changes from development to release. Netlify then detects the changes in release and publishes the live build to the domain. 
 5. Netlify keeps the original .netlify.app link as the default adress, while the custom domain www.ghitahajjari.me points its DNS records to Netlify's servers, so that Netlify routes visitors between both adresses. 
 6. Before the end of the semester, I would like to have a full width banner picture at the top of the pages, with styled overlay text and dynamic background effects. 
+## AI use: none
