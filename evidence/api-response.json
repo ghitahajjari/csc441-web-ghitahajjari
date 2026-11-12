@@ -1,26 +1,42 @@
 [
   {
     "id": 1,
-    "title": "Photography",
-    "description": "I like taking photos outdoors",
-    "category": "Creative",
-    "image_url": null,
+    "title": "Classical",
+    "description": "An orchestral tradition known for complex compositions and symphonies.",
+    "category": "Genre",
+    "image_url": "https://plus.unsplash.com/premium_photo-1664303098722-7e5287a4693b?q=80&w=773&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
     "created_at": "2026-11-11T22:45:53.272723+00:00"
   },
   {
     "id": 2,
-    "title": "Reading",
-    "description": "I enjoy science fiction and mysteries.",
-    "category": "Learning",
-    "image_url": null,
+    "title": "Drum Kit",
+    "description": "A collection of drums and cymbals that drives the tempo and energy of a band.",
+    "category": "Percussion",
+    "image_url": "https://images.unsplash.com/photo-1519892300165-cb5542fb47c7?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
     "created_at": "2026-11-11T22:45:53.272723+00:00"
   },
   {
     "id": 3,
-    "title": "Hiking",
-    "description": "I explore local trails on weekends.",
-    "category": "Outdoors",
-    "image_url": null,
+    "title": "Jazz",
+    "description": "An expressive musical style built around improvision and brass instruments.",
+    "category": "Genre",
+    "image_url": "https://images.unsplash.com/photo-1415201364774-f6f0bb35f28f?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
     "created_at": "2026-11-11T22:45:53.272723+00:00"
+  },
+  {
+    "id": 4,
+    "title": "Acoustic Guitar",
+    "description": "A six-string instrument known for its warm sound.",
+    "category": "Strings",
+    "image_url": "https://images.unsplash.com/photo-1510915361894-\r\ndb8b60106cb1?auto=format&fit=crop&w=1000&q=80",
+    "created_at": "2026-11-12T20:51:36.40711+00:00"
+  },
+  {
+    "id": 5,
+    "title": "Piano",
+    "description": "A versatile keyboard instrument capable of playing both delicate and powerful melodies.",
+    "category": "Keyboard",
+    "image_url": "https://images.unsplash.com/photo-1514119412350-e174d90d280e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
+    "created_at": "2026-11-12T20:52:42.500952+00:00"
   }
 ]
