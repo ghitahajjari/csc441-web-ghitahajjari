@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My interests</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <!-- Class 20: Step 2: api connection, then api page -->
+    <script src="config.js" defer></script>
+    <script src="interests.js" defer></script>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li> 
+            <li><a href="projects.html">Projects</a></li> 
+            <li><a href="music.html">Music</a></li> 
+            <li><a href="contact.html">Contact</a></li> 
+            <li><a href="interests.html" class="current">Interests</a></li> 
+            <li><button id="theme-toggle" type="button">Dark</button></li>
+        </ul>
+    </nav>
+
+    <header>
+        <img src="images/me.jpg" alt="Ocean picture taken by Ghita Hajjari" class="portrait">
+        <div>
+            <h1>Ghita Hajjari</h1>
+            <h2> NEW VERSION </h2> 
+            <p>Computer Science Major with a Chemistry Minor.</p>
+        </div>
+    </header>
+
+    <main>
+         <section class="interests-section">
+           <h2>My interests</h2>  
+           <p>
+            These items come from my Supabase database.
+           </p>
+           <p id="showcase-status" role="status">Waiting to load...</p>
+           <p id="showcase-count"></p>
+           <div id="showcase-grid" class="showcase-grid></div> 
+         </section>
+    </main>
+
+    <!-- Lab 12: Task 3: two things in the footer -->
+    <footer>
+        <!-- Class 15: Step 2: the year, written by javaScript -->
+        <p>© <span id="year"></span> Ghita Hajjari</p>
+        <!-- Lab 11: Task 3: a link off my page -->
+        <a href="https://github.com/ghitahajjari" target="_blank" rel="noopener">GitHub</a>
+        <!-- Lab 15: Task 5: Button to top -->
+        <button id="back-to-top">Back to Top</button>
+    </footer>
+
+</body>
+
+</html>

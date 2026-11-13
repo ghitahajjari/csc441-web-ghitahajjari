@@ -52,3 +52,12 @@ I updated the padding between the nav links to be far enough for a thumb tap.
 5. Netlify keeps the original .netlify.app link as the default adress, while the custom domain www.ghitahajjari.me points its DNS records to Netlify's servers, so that Netlify routes visitors between both adresses. 
 6. Before the end of the semester, I would like to have a full width banner picture at the top of the pages, with styled overlay text and dynamic background effects. 
 ## AI use: none
+
+
+## Week 12, Wednesday, Lab 19
+## Lab 19: Task 7: Question notes
+1. A database table stores structured data organized into rows and columns.
+2. A table is where the raw data lives inside the database while the API endpoint is the web url that is considered a bridge to let external apps or commands request or receive data over HTTP.
+3. GET is an HTTP method used to read and retrieve data from a server without modifying it. My endpoint returns the records formatted as a JSON array of objects.
+4. Publishable key is safe to use because it respects row level security rules, whereas the secret key bypasses security policies and can let anyone delete or modify the database.
+5. Using "select=*" returned every column for each of the five records, while "select=title,category?" filtered the response to only include the title and category fields.
