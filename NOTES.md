@@ -61,3 +61,12 @@ I updated the padding between the nav links to be far enough for a thumb tap.
 3. GET is an HTTP method used to read and retrieve data from a server without modifying it. My endpoint returns the records formatted as a JSON array of objects.
 4. Publishable key is safe to use because it respects row level security rules, whereas the secret key bypasses security policies and can let anyone delete or modify the database.
 5. Using "select=*" returned every column for each of the five records, while "select=title,category?" filtered the response to only include the title and category fields.
+
+## Week 12, Friday, Lab 20
+1. fetch() sends HTTP GET request to the Supabase REST API endpoint including the public apikey header for authorization. response.json() returns the JSON text from the HTTP response body and returns a Javascript array of objects.
+2. textContent inserts data as plain text rather than interpreting it as html code. This prevents broken layouts from special characters, and keeps the page safe from malicious code injection and stops symbols in titles or descriptions from accidently messing up the html structure. 
+3. When Supabase returns an empty list, no cards are rendered in the grid and the status displays a message saying that no items were found instead of leaving a blank or broken page.
+4. When network fails, fetch() rejects or receives a failed status, so the try catch block catches the error and displays an error message like no itmas found without crashing the rest of the page. 
+5. The proof is changing a title directly in the Supabase Table Editor and clicking the refresh button which updates the card on the webpage without editing the html file. 
+
+## AI use: none
