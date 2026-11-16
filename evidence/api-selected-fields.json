@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Classical",
+        "category": "Genre"
+    },
+    {
+        "title": "Drum Kit",
+        "category": "Percussion"
+    },
+    {
+        "title": "Jazz",
+        "category": "Genre"
+    },
+    {
+        "title": "Acoustic Guitar",
+        "category": "Strings"
+    },
+    {
+        "title": "Piano",
+        "category": "Keyboard"
+    }
+]
